@@ -1,0 +1,50 @@
+.circle__container{
+    display: flex;
+    height: 300px;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-color: #F5F5F5 ;
+}
+
+.input{
+    display: flex;
+    height: 30px;
+    width: 100px;
+    border: none;
+    background: none;
+    border-bottom: 2px solid #868686;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.input:hover{
+    border: none;
+    border-bottom: 2px solid #40738b;
+}
+
+.circle{
+    height: 168px;
+    width: 168px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 20px solid #1C84AC;
+}
+
+.text{
+    font-size: 15px;
+}
+
+.first{
+    border-color: #1C84AC;
+}
+
+.second{
+    border-color: #E3843C;
+}
+
+.third{
+    border-color: #D44434;
+}

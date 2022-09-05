@@ -1,0 +1,16 @@
+.options__container{
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  @media (min-width: 700px) {
+    .options__container{
+        justify-content: space-around;
+        display: flex;
+        flex-direction: row;
+    
+      }
+    }

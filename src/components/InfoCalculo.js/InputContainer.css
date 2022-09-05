@@ -1,0 +1,31 @@
+
+.inp__container{
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 100%;
+    background-color: #F5F5F5;
+
+}
+
+.inp-title{
+    font-size: 20px;
+}
+
+.inputs__container{
+    display: flex;
+}
+
+.select{
+    display: flex;
+    margin-left: 20px;
+    border: none;
+    height: 40px;
+    width: 80px;
+    border-radius: 20px;
+    border: 2px solid #1C84AC;
+    justify-content: center;
+
+}

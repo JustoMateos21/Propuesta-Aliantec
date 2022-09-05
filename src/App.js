@@ -1,23 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
+import FinalInput from './components/InfoCalculo.js/FinalInput';
+import InputContainer from './components/InfoCalculo.js/InputContainer';
+import NavBar from './components/Navbar/NavBar';
+import Table from './components/Table/Table';
+import TitleContainer from './components/TitleContainer';
+import CircleInputs from './components/InfoCalculo.js/CircleInputs';
+import OptionsContainer from './components/InfoCalculo.js/OptionsContainer';
+import DropDownInfo from './components/DropDownInfo/DropDownInfo';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <NavBar/>
+     <TitleContainer/>
+     <DropDownInfo/>
+   <CircleInputs/>
+    <OptionsContainer/>
+     <InputContainer/>
+     <FinalInput text='Cantidad de vacaciones por año'/>
+     <FinalInput text='Retribuciones no remunerativas'/>
+     <button className='calcular-btn'>Calcular</button>
+     <Table/>
     </div>
   );
 }
